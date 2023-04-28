@@ -1,0 +1,85 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+.hill {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid darkgrey;
+
+    display: flex;
+    margin: 100px auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+.image {
+    width: 174px;
+    height: 50px;
+
+    margin: 31px;
+}
+.middle {
+    width: 75%;
+    height: 30px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    background-color: #FAFAFA;
+    border: 1px solid darkgrey;
+
+}
+.button {
+    width: 75%;
+    height: 33px;
+    border-radius: 7px;
+    margin-top: 4px;
+    background-color:#65b5fa;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.or {
+    color: #848484;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.facebook {
+color: #3F6AAD;
+    font-size: 14px;
+}
+svg {
+    width: 16px;
+    height: 16px;
+}
+.end {
+    font-size: 12px;
+}
+.kinec {
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid darkgrey;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+a {
+    color:#52C2FB;
+    text-decoration: none;
+}
+.iaia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

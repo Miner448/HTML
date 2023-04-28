@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .main{
+    width: 100%;
+    height: 750px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+    .box {
+    width: 100px;
+    height:100px;
+    background-color: red;
+    }
+    .red{
+    background-color: red;
+        transition:1s;
+    }
+    .red:hover{
+        background-color:darkgrey;
+        transition:ease-in 1s;
+        border-radius: 50%;
+    }
+
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="box red">1</div>
+  <div class="box red">2</div>
+  <div class="box red">3</div>
+  <div class="box red">4</div>
+  <div class="box red">5</div>
+  <div class="box red">6</div>
+
+</div>
+</body>
+</html>

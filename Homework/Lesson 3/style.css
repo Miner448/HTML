@@ -1,0 +1,85 @@
+header {
+    height: 20vh;
+    background: rgba(217, 217, 217, 0.1);
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: 'Jost', serif;
+
+}
+header nav {
+    margin: 35px;
+    display: flex;
+    text-align: center;
+}
+
+nav a{
+    text-decoration:none ;
+    color: #7A7070;
+}
+
+/*---------------------------------------------------------MAIN------------------------------------------------------------------*/
+
+main{
+    height: 80vh;
+    background: #F5F5F5;
+    padding-top: 15px;
+
+    font-family: 'Jost', serif;
+    }
+
+
+main h1 {
+    width: 388px;
+    height: 202px;
+    margin-left: 148px;
+
+    font-size: 70px;
+    color: #000000;
+
+}
+main p{
+    width: 608px;
+    height: 209px;
+    margin-left: 148px;
+
+    font-size: 35px;
+    color: #000000;
+}
+div {
+    display: flex;
+    margin-left: 148px;
+
+
+}
+#l {
+    width: 150px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+#r {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #ECBCBC;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+article {
+    width: 621px;
+    height: 621px;
+
+    background-image: url("stock-vector-superhero-couple-man-and-woman-removebg-preview 1.png");
+
+}
